@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bannerUrl": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrls": {
+      "type": "text",
+      "required": true
+    },
+    "startedDateAt": {
+      "type": "date",
+      "required": true
+    },
+    "endedDateAt": {
+      "type": "date",
+      "required": true
+    },
+    "startedTimeAt": {
+      "type": "time",
+      "required": true
+    },
+    "endedTimeAt": {
+      "type": "time",
+      "required": true
+    },
+    "price": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "unique": false
+    },
+    "views_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "likes_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "comments_count": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
