@@ -62,6 +62,45 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "nick_name": {
+      "type": "string"
+    },
+    "cccd": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "address_temp": {
+      "type": "text"
+    },
+    "company": {
+      "type": "string"
+    },
+    "company_position_in": {
+      "type": "string"
+    },
+    "company_address": {
+      "type": "string"
+    },
+    "tax_code": {
+      "type": "string"
+    },
+    "request_member_card": {
+      "type": "string"
     }
   }
 }
