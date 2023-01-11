@@ -101,6 +101,9 @@
     },
     "request_member_card": {
       "type": "string"
+    },
+    "pocket_connect": {
+      "type": "boolean"
     }
   }
 }
